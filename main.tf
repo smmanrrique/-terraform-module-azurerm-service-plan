@@ -7,8 +7,8 @@ resource "azurerm_app_service_plan" "service_plan" {
   reserved            = true
 
   sku {
-    tier = "Basic"
-    size = "B2"
+    tier = var.TIER
+    size = var.SIZE
   }
 
   tags = var.TAGS

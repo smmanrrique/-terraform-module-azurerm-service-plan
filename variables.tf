@@ -20,5 +20,18 @@ variable "TAGS" {
 
 }
 
+variable "TIER" {
+  type        = string
+  default = "Basic"
+  description = "Resources tier"
+}
+
+
+variable "SIZE" {
+  type        = string
+  default = "B2"
+  description = "Resources tier"
+}
+
 
 
